@@ -1,0 +1,19 @@
+{
+  "name": "code-gen-nxt",
+  "version": "1.0.0",
+  "description": "Generate code based on a source, parser and template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francescoferraioli/code-gen-next.git"
+  },
+  "author": "Francesco Ferraioli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francescoferraioli/code-gen-next/issues"
+  },
+  "homepage": "https://github.com/francescoferraioli/code-gen-next#readme"
+}
