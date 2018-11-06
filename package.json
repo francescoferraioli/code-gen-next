@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Generate code based on a source, parser and template",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "code-gen-nxt": "bin/code-gen-nxt.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/francescoferraioli/code-gen-next/issues"
   },
-  "homepage": "https://github.com/francescoferraioli/code-gen-next#readme"
+  "homepage": "https://github.com/francescoferraioli/code-gen-next#readme",
+  "dependencies": {
+    "read-file": "^0.2.0"
+  }
 }
